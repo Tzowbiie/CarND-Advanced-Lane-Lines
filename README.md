@@ -1,17 +1,3 @@
-
-**Advanced Lane Finding Project**
-
-The goals / steps of this project are the following:
-
-* Compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
-* Apply a distortion correction to raw images.
-* Use color transforms, gradients, etc., to create a thresholded binary image.
-* Apply a perspective transform to rectify binary image ("birds-eye view").
-* Detect lane pixels and fit to find the lane boundary.
-* Determine the curvature of the lane and vehicle position with respect to center.
-* Warp the detected lane boundaries back onto the original image.
-* Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
-
 [//]: # (Image References)
 
 [image1]: ./camera_cal/calibration3.jpg "Original Image"
@@ -29,8 +15,26 @@ The goals / steps of this project are the following:
 [image11]: ./output_images/withlanes_image1.jpg "Warped Image with Polynomial Fit"
 [image12]: ./output_images/laneswarped_image1.jpg "Rewarped Image with Polynomial Fit"
 [image13]: ./output_images/final_image1.jpg "Final Image"
+[image14]: ./video_out/lane-finding.gif "Video (gif)"
 
 [video1]: ./video_out/project_video_out_REWORK.mp4 "Video"
+**Advanced Lane Finding Project**
+
+The goals / steps of this project are the following:
+
+* Compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
+* Apply a distortion correction to raw images.
+* Use color transforms, gradients, etc., to create a thresholded binary image.
+* Apply a perspective transform to rectify binary image ("birds-eye view").
+* Detect lane pixels and fit to find the lane boundary.
+* Determine the curvature of the lane and vehicle position with respect to center.
+* Warp the detected lane boundaries back onto the original image.
+* Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.
+
+![alt text][image14]
+
+
+
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 
